@@ -27,14 +27,14 @@ body {
   flex-direction: row;
   align-items: center;
   color: white;
-  /* padding-bottom: 30px; */
+  padding-right: 100px;
+  padding-left: 50px;
 }
 
 .header h2 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 30px;
-  padding-left: 30px;
 }
 
 .header div {
@@ -50,7 +50,12 @@ body {
   text-decoration: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+}
+
+.nav-li {
+  color: white;
+  text-decoration: none;
+  padding-left: 15px;
 }
 
 .header a:hover {
