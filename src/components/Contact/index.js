@@ -4,10 +4,17 @@ function Contact() {
   return (
     <section>
       <h1>Contact me</h1>
-      <form>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input type="name" name="name" />
+      <form className="row g-3">
+        <div className="col-md-6">
+          <label for="inputEmail4" htmlFor="name" className="form-label">
+            Name:
+          </label>
+          <input
+            type="name"
+            name="name"
+            className="form-control"
+            id="inputEmail4"
+          />
         </div>
         <div>
           <label htmlFor="email">Email address:</label>

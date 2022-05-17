@@ -16,7 +16,7 @@ function Navigation(props) {
           </a>
         </li>
         <li>
-          <a className="nav-li" href="#portfolio" onClick={() => handleClick()}>
+          <a className="nav-li" href="#portfolio">
             Portfolio
           </a>
         </li>
