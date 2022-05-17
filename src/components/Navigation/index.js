@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Navigation(props) {
-  const { contactSelected, setContactSelected } = props;
+  // const { projects = [] } = props;
+  //only argument useState takes is the initial state like (0) for the counter
+  // const [click, setClick] = useState;
   return (
     <nav className="header">
       <h2>
@@ -9,22 +11,17 @@ function Navigation(props) {
       </h2>
       <ul className="nav-link">
         <li>
-          <a
-            className="nav-li"
-            data-testid="about"
-            href="#about"
-            onClick={() => setContactSelected(false)}
-          >
+          <a className="nav-li" data-testid="about" href="#about">
             About Me
           </a>
         </li>
         <li>
-          <a className="nav-li" href="#portfolio">
+          <a className="nav-li" href="#portfolio" onClick={() => handleClick()}>
             Portfolio
           </a>
         </li>
         <li>
-          <a className="nav-li" onClick={() => setContactSelected(true)}>
+          <a className="nav-li" href="#contact">
             Contact
           </a>
         </li>
