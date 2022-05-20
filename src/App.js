@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import React from "react";
 import About from "../src/components/About";
 import Header from "../src/components/Header";
@@ -11,16 +12,29 @@ import Resume from "./components/Resume";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <main>
-        <About />
-        <Portfolio />
-        <Contact />
-        <Resume />
-        <Footer />
-      </main>
-    </div>
+    <Router>
+      <div>
+        <Header />
+        <Switch>
+          <main>
+            <Route exact path="/">
+              <About />
+            </Route>
+            <Route exact path="/portfolio">
+              <Portfolio />
+            </Route>
+            <Route exact path="/contact">
+              <Contact />
+            </Route>
+            <Route exact path="/resume">
+              <Resume />
+            </Route>
+
+            <Footer />
+          </main>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

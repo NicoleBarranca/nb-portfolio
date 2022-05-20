@@ -1,38 +1,21 @@
+import { Link } from "react-router-dom";
 import React from "react";
 
-function Navigation(props) {
-  const { contactSelected, setContactSelected } = props;
+function Navigation() {
   return (
     <nav className="header">
-      <h2>
-        <a>NB</a>
-      </h2>
+      <h2>NB</h2>
       <ul className="nav-link">
-        <li>
-          <a
-            className="nav-li"
-            data-testid="about"
-            href="#about"
-            onClick={() => setContactSelected(false)}
-          >
-            About Me
-          </a>
-        </li>
-        <li>
-          <a className="nav-li" href="#portfolio">
-            Portfolio
-          </a>
-        </li>
-        <li>
-          <a className="nav-li" onClick={() => setContactSelected(true)}>
-            Contact
-          </a>
-        </li>
-        <li>
-          <a className="nav-li" href="#resume">
-            Resume
-          </a>
-        </li>
+        <Link to="/">About</Link>
+        <Link to="/portfolio">
+          <li>Portfolio</li>
+        </Link>
+        <Link to="/contact">
+          <li>Contact</li>
+        </Link>
+        <Link to="/resume">
+          <li>Resume</li>
+        </Link>
       </ul>
     </nav>
   );
