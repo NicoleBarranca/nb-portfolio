@@ -1,11 +1,12 @@
 import React, { useState } from "react";
-import About from "../src/components/About";
+// import About from "../src/components/About";
 import Header from "../src/components/Header";
 import Footer from "./components/Footer";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
-import Resume from "./components/Resume";
+// import Portfolio from "./components/Portfolio";
+// import Contact from "./components/Contact";
+// import Resume from "./components/Resume";
 import Navigation from "./components/Navigation";
+import Pages from "./components/Pages";
 
 // might need App.css or import other css
 // might need to import photos
@@ -44,21 +45,33 @@ function App() {
     },
   ]);
 
-  // const [currentCategory, setCurrentCategory] = useState(projects[0]);
+  const [pages] = useState([
+    {
+      name: "about me",
+    },
+    { name: "portfolio" },
+    { name: "contact" },
+    {
+      name: "resume",
+    },
+  ]);
 
-  // const [contactSelected, setContactSelected] = useState(false);
+  const [currentPage, setCurrentPage] = useState(pages[0]);
+
   return (
     <div>
       <Header>
-        <Navigation projects={projects}></Navigation>
+        <Navigation
+          pages={pages}
+          currentPage={currentPage}
+          setCurrentPage={setCurrentPage}
+          projects={projects}
+        ></Navigation>
       </Header>
       <main>
-        <About />
-        <Portfolio />
-        <Contact />
-        <Resume />
-        <Footer />
+        <Pages currentPage={currentPage}></Pages>
       </main>
+      <Footer />
     </div>
   );
 }
