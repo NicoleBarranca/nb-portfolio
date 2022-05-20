@@ -6,7 +6,9 @@ function Navigation() {
     <nav className="header">
       <h2>NB</h2>
       <ul className="nav-link">
-        <Link to="/">About</Link>
+        <Link to="/">
+          <li>About</li>
+        </Link>
         <Link to="/portfolio">
           <li>Portfolio</li>
         </Link>

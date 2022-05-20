@@ -2,22 +2,47 @@ import React from "react";
 
 function Contact() {
   return (
-    <section>
-      <h1>Contact me</h1>
-      <form>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input type="name" name="name" />
+    <section className="contact">
+      <h1 data-testid="h1tag">Contact me</h1>
+      <form className="row g-3">
+        <div className="col-md-6">
+          <label for="inputName4" className="form-label">
+            Name:
+          </label>
+          <input
+            type="name"
+            className="form-control"
+            placeholder="Who are you?"
+            id="inputName4"
+          />
         </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" />
+
+        <div class="col-md-6">
+          <label for="inputEmail4" className="form-label">
+            Email address:
+          </label>
+          <input
+            type="email"
+            className="form-control"
+            placeholder="How can I reach you?"
+            id="inputEmail4"
+          />
         </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" />
+
+        <div class="col-md-12">
+          <label for="inputMessage4" className="form-label">
+            Message:
+          </label>
+          <textarea
+            type="message"
+            className="form-control"
+            placeholder="Send me a messge..."
+            id="inputmessage4"
+            rows="5"
+          />
         </div>
-        <button data-testid="button" type="submit">
+
+        <button data-testid="button" className="btn" type="submit">
           Submit
         </button>
       </form>
