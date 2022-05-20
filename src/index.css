@@ -9,7 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #e9c46a;
+  background-color: #264653;
 }
 
 /* code {
@@ -31,7 +31,7 @@ body {
   padding-left: 50px;
 }
 
-.header h2 {
+/* .header h2 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 30px;
@@ -60,4 +60,27 @@ body {
 
 .header a:hover {
   color: #e9c46a;
+} */
+
+/* ABOUT */
+
+.about {
+  max-width: 60%;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+.about h1 {
+  font-size: 30px;
+  color: white;
+  margin-left: 10px;
+  opacity: 0.8;
+}
+
+.about p {
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 1.5;
+  color: white;
+  opacity: 0.5;
 }
