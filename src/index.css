@@ -34,6 +34,7 @@ body {
 .header h2 {
   background-color: #2a9d8f;
   display: flex;
+  font-size: 40px;
 }
 .header ul {
   text-decoration: none;
@@ -49,36 +50,9 @@ body {
   padding-right: 15px;
 }
 
-/* .header h2 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 30px;
-}
-
-.header div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.nav-link {
-  display: flex;
-  justify-content: flex-end;
-  justify-content: space-between;
-  list-style-type: none;
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-li {
-  color: white;
-  text-decoration: none;
-  padding-left: 15px;
-}
-
-.header a:hover {
+.header li:hover {
   color: #e9c46a;
-} */
+}
 
 /* ABOUT */
 
@@ -133,6 +107,42 @@ body {
   width: 100px;
 }
 .contact button:hover {
+  background-color: #f4a261;
+  color: #264653;
+}
+
+.resume {
+  max-width: 60%;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+.resume h2 {
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+  opacity: 0.8;
+}
+
+.resume ul {
+  margin-top: 10px;
+  font-size: 20px;
+  line-height: 1.5;
+  color: white;
+  opacity: 0.5;
+}
+
+.resume a {
+  background-color: #e76f51;
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 30px;
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.resume a:hover {
   background-color: #f4a261;
   color: #264653;
 }

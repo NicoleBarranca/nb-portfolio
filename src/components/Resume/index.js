@@ -2,8 +2,11 @@ import React from "react";
 
 function Resume() {
   return (
-    <div>
-      <h1>Resume:</h1>
+    <div className="resume">
+      <a href="Nicole-Barranca-Resume.pdf" className="btn">
+        Resume
+      </a>
+
       <h2>Front-End Proficiencies</h2>
       <ul>
         <li>HTML5</li>
