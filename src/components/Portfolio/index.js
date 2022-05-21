@@ -36,13 +36,18 @@ function Portfolio() {
             for an account and review various podcasts.
           </p>
 
-          <a href="https://evening-tor-85614.herokuapp.com/" className="btn">
+          <a
+            href="https://evening-tor-85614.herokuapp.com/"
+            className="btn "
+            id="button"
+          >
             Live Site
           </a>
 
           <a
             href="https://github.com/NicoleBarranca/PodFreaks"
             className="btn "
+            id="button"
           >
             Github
           </a>
@@ -73,11 +78,19 @@ function Portfolio() {
             title.
           </p>
 
-          <a href="https://chloeyarb.github.io/Music-Box/" className="btn">
+          <a
+            href="https://chloeyarb.github.io/Music-Box/"
+            className="btn"
+            id="button"
+          >
             Live Site
           </a>
 
-          <a href="https://github.com/chloeyarb/Music-Box" className="btn ">
+          <a
+            href="https://github.com/chloeyarb/Music-Box"
+            className="btn "
+            id="button"
+          >
             Github
           </a>
         </div>
@@ -109,13 +122,18 @@ function Portfolio() {
             for an account and review various podcasts.
           </p>
 
-          <a href="https://nicolebarranca.github.io/Salon-144/" className="btn">
+          <a
+            href="https://nicolebarranca.github.io/Salon-144/"
+            className="btn"
+            id="button"
+          >
             Live Site
           </a>
 
           <a
             href="https://github.com/NicoleBarranca/Salon-144"
             className="btn "
+            id="button"
           >
             Github
           </a>
@@ -143,13 +161,18 @@ function Portfolio() {
             demonstrate skills in CSS and Flexbox.
           </p>
 
-          <a href="https://nicolebarranca.github.io/run-buddy/" className="btn">
+          <a
+            href="https://nicolebarranca.github.io/run-buddy/"
+            className="btn"
+            id="button"
+          >
             Live Site
           </a>
 
           <a
             href="https://github.com/NicoleBarranca/run-buddy"
             className="btn "
+            id="button"
           >
             Github
           </a>
@@ -186,6 +209,7 @@ function Portfolio() {
           <a
             href="https://nicolebarranca.github.io/Password-Generator/"
             className="btn"
+            id="button"
           >
             Live Site
           </a>
@@ -193,6 +217,7 @@ function Portfolio() {
           <a
             href="https://nicolebarranca.github.io/Password-Generator/"
             className="btn "
+            id="button"
           >
             Github
           </a>
@@ -225,6 +250,7 @@ function Portfolio() {
           <a
             href="https://nicolebarranca.github.io/Everything-Cal/"
             className="btn"
+            id="button"
           >
             Live Site
           </a>
@@ -232,6 +258,7 @@ function Portfolio() {
           <a
             href="https://github.com/NicoleBarranca/Everything-Cal"
             className="btn "
+            id="button"
           >
             Github
           </a>

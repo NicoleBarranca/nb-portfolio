@@ -3,7 +3,11 @@ import React from "react";
 function Resume() {
   return (
     <div className="resume">
-      <a href="Nicole-Barranca-Resume.pdf" className="btn">
+      <a
+        href="https://drive.google.com/file/d/1SUZT2dyvOu1ZqyKQoP6Xn4ffAvj-j9oG/view?usp=sharing"
+        className="btn"
+        id="button"
+      >
         Resume
       </a>
 

@@ -6,7 +6,7 @@ function Contact() {
       <h1 data-testid="h1tag">Contact me</h1>
       <form className="row g-3">
         <div className="col-md-6">
-          <label for="inputName4" className="form-label">
+          <label htmlFor="inputName4" className="form-label">
             Name:
           </label>
           <input
@@ -18,7 +18,7 @@ function Contact() {
         </div>
 
         <div class="col-md-6">
-          <label for="inputEmail4" className="form-label">
+          <label htmlFor="inputEmail4" className="form-label">
             Email address:
           </label>
           <input
@@ -30,7 +30,7 @@ function Contact() {
         </div>
 
         <div class="col-md-12">
-          <label for="inputMessage4" className="form-label">
+          <label htmlFor="inputMessage4" className="form-label">
             Message:
           </label>
           <textarea
