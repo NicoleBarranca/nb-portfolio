@@ -99,7 +99,7 @@ body {
 }
 
 .contact button {
-  background-color: #e76f51;
+  background-color: #e9c46a;
   color: white;
   font-size: 20px;
   margin-left: 10px;
@@ -133,7 +133,7 @@ body {
 }
 
 .resume a {
-  background-color: #e76f51;
+  background-color: #e9c46a;
   color: white;
   font-size: 20px;
   margin-left: 10px;
@@ -146,3 +146,49 @@ body {
   background-color: #f4a261;
   color: #264653;
 }
+
+.images {
+  border-radius: 15px;
+}
+
+.images:hover {
+  opacity: 0.5;
+}
+
+.editImage {
+  background-color: none;
+}
+
+.portfolio {
+  color: white;
+}
+
+.portfolio h3 {
+  color: white;
+  margin-left: 15px;
+}
+
+.portfolio p {
+  width: 450px;
+  margin-left: 15px;
+}
+
+.portfolio a {
+  background-color: #e9c46a;
+  color: white;
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 3px;
+  padding: 2px;
+  width: 100px;
+  /* border: none; */
+}
+/* .portfolio a:hover {
+  background-color: #f4a261;
+
+  color: #264653;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 30px;
+  width: 100px;
+} */
