@@ -7,9 +7,6 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 
-// might need App.css or import other css
-// might need to import photos
-
 function App() {
   return (
     <Router>
