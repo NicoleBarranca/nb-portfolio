@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="" rel="noopener">
+  <a href="https://nicolebarranca.github.io/" rel="noopener">
  <img width=200px height=200px src="src/assets/bitmoji/Bit.png" alt="Project logo"></a>
 </p>
 
@@ -8,7 +8,6 @@
 <div align="center">
 
 <a href="https://opensource.org/licenses/MIT">![License](https://img.shields.io/badge/License-MIT-green.svg)</a>
-<a href="https://opensource.org/licenses/BSD-2-Clause">![License](https://img.shields.io/badge/License-BSD_2_Clause-yellowgreen.svg)</a>
 
 </div>
 
@@ -24,9 +23,9 @@ This appilcation is a portfolio for Nicole Barranca Built with React.js.
 
 ## Website
 
-Take a look at [NB Portfolio](https://github.com/NicoleBarranca).
+Take a look at [NB Portfolio](https://nicolebarranca.github.io/).
 
-<img width=300px height=220px src="./images/Ins.png" alt="CRUD requests in Insomnia"></a>
+<img width=242px height=378px src="src/assets/projects/SS.png" alt="CRUD requests in Insomnia"></a>
 
 ## Contribution
 
