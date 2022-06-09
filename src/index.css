@@ -220,5 +220,13 @@ body {
 
 .flex-footer {
   display: flex;
-  flex-direction: row;
+  align-self: flex-end;
+  position: relative;
+  height: auto;
+  bottom: 0;
+  width: 100%;
+}
+
+#bottom-row {
+  margin-bottom: 150px;
 }
